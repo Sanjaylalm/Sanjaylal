@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjaylal M - B.Sc IT Student & Developer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .profile-pic {
+            width: 180px; height: 180px; border-radius: 50%;
+            border: 5px solid rgba(255,255,255,0.3);
+            margin: 0 auto 20px; display: block;
+        }
+        h1 { font-size: 3rem; margin: 20px 0 10px; }
+        .tagline { font-size: 1.2rem; margin-bottom: 30px; }
+        nav a {
+            color: white; text-decoration: none; margin: 0 15px;
+            padding: 8px 16px; border-radius: 20px; transition: 0.3s;555
+        }
+        nav a:hover { background: rgba(255,255,255,0.2); }
+        main { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        section { padding: 70px 0; }
+        h2 {
+            text-align: center; font-size: 2.3rem;
+            margin-bottom: 40px; color: #333; position: relative;
+        }
+        h2::after {
+            content: ''; width: 80px; height: 4px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            position: absolute; bottom: -10px; left: 50%;
+            transform: translateX(-50%); border-radius: 2px;
+        }
+        .card {
+            background: white; padding: 25px; border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1); margin-bottom: 20px;
+        }
+        .skills-list, .achievements-list { list-style: none; padding: 0; }
+        .skills-list li, .achievements-list li {
+            padding: 10px; border-bottom: 1px solid #eee;
+        }
+        .skills-list li:last-child, .achievements-list li:last-child {
+            border-bottom: none;
+        }
+        .projects-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;
+        }
+        .project-card {
+            background: white; border-radius: 15px; padding: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .project-card h3 { margin-bottom: 10px; color: #667eea; }
+        .contact-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;
+        }
+        .contact-item {
+            display: flex; align-items: center; padding: 20px;
+            background: white; border-radius: 15px; text-decoration: none;
+            color: #333; box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .contact-icon {
+            font-size: 1.8rem; margin-right: 15px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        footer {
+            background: #333; color: white; text-align: center;
+            padding: 30px 20px; margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       
+     <img src="   C:\Users\iamsa\OneDrive\Documents\portfolio\profile.jpg
+" alt="Sanjaylal Photo" class="profile-pic">
+        <h1>Sanjaylal M</h1>
+        <p class="tagline">B.Sc IT Student | Entry-Level Programmer | Web Developer</p>
+        <nav>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Skills -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="card">
+                <ul class="skills-list">
+                    <li>Python, C, C++</li>
+                    <li>AIML (Artificial Intelligence & Machine Learning)</li>
+                    <li>Web Development (Front-End)</li>
+                    <li>Power BI</li>
+                    <li>Cloud Computing</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Electrical Car Analysis</h3>
+                    <p>Performed electrical car analysis based on market data using Power BI for visualization and insights.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Medical Insurance Price Prediction</h3>
+                    <p>Developed a price prediction tool leveraging economic data and ML techniques to estimate medical insurance plans.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements -->
+        <section id="achievements">
+            <h2>Achievements</h2>
+            <div class="card">
+                <ul class="achievements-list">
+                    <li>Certification in Cloud Computing</li>
+                    <li>Certification in AIML</li>
+                    <li>Certification in Web Development</li>
+                    <li>Certification in Power BI</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-grid">
+                <a href="mailto:24bsit150sanjaylalm@skacas.ac.in" class="contact-item">
+                    <i class="fas fa-envelope contact-icon"></i>
+                    <span>24bsit150sanjaylalm@skacas.ac.in</span>
+                </a>
+                <a href="tel:+917200965337" class="contact-item">
+                    <i class="fas fa-phone contact-icon"></i>
+                    <span>+91 72009 65337</span>
+                </a>
+                <a href="https://github.com/Sanjaylalm/Sanjaylal.git" target="_blank" class="contact-item">
+                    <i class="fab fa-github contact-icon"></i>
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Sanjaylal M | Designed with ❤ and code</p>
+    </footer>
+</body>
+</html>
